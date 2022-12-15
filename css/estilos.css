@@ -155,8 +155,8 @@ nav a:hover{
     
 }
 .formulario img{
-    height: 140px;
-    width: 300px;
+    height: 100px;
+    width: 270px;
     
 }
 .contratar{
@@ -165,7 +165,7 @@ nav a:hover{
     background:white;
     height: 200px;
     width: 650px;
-    padding: 30px;
+    padding: 20px;
     justify-content:center;
     flex-flow: column;
     align-items: center;
