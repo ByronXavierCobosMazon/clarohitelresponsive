@@ -36,13 +36,25 @@
     <meta content="&quot;Obtén llamadas ilimitadas entre teléfonos Claro, Internet de banda ancha y televisión digital en HD. Arma tu paquete ahora&quot;." property="og:description">
     <meta content="Claro - Personas | Claro: Teléfono celular y fijo, Internet, Televisión HD" property="og:title">
     <meta content="https://via.placeholder.com/320x480" property="og:image">
-    <meta name="theme-color" content="#72e272">
+    <meta name="theme-color" content="#72e272">    
 </head>
+<script type="text/javascript">
+    function Mymensaje(){
+    Swal.fire({
+    position: 'top-end',
+     icon: 'success',
+    title: 'Información enviada con éxito',
+    showConfirmButton: false,
+    timer: 1500
+})
+    }
+</script>
 <body>
     <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PLK8NQF"
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <header>
         <div class="logo">
             <a href="https://api.whatsapp.com/send?phone=593979614972" class="" target="_black"><img src="/imagenes/logo.png" alt="logoclaro"></a>
@@ -75,7 +87,7 @@
                         <input class="controls" type="number" name="TELÉFONO" id="TELÉFONO" placeholder="TELÉFONO">
                     </div>
                     <div class="contartarll">
-                        <input class="btco" type="submit" value="CONTRATAR">
+                        <input class="btco" type="submit" value="CONTRATAR" onclick="Mymensaje()">
                         <input type="hidden" name="_next" value="https://www.hi-tel.ec/">
                         <input type="hidden" name="_captcha" value="false"> 
                         <!-- Event snippet for Suscripción hi-tel conversion page
@@ -134,7 +146,7 @@
                     <input class="controls" type="text" name="NOMBRE" id="NOMBRES" placeholder="NOMBRE">
                     <input class="controls" type="number" name="TELÉFONO" id="TELÉFONO" placeholder="TELÉFONO">
                 </div>
-                    <input class="btco" type="submit" value="CONTRATAR">
+                    <input class="btco" type="submit" value="CONTRATAR" onclick="Mymensaje()">
                     <input type="hidden" name="_next" value="https://www.hi-tel.ec/">
                     <input type="hidden" name="_captcha" value="false">
                     <!-- Event snippet for Suscripción hi-tel conversion page
@@ -182,6 +194,6 @@
     <a href="https://api.whatsapp.com/send?phone=593979614972" class="btn-wts" target="_black">
         <i class="icon-whatsapp"></i>
     </a>
-
  </body>
+ <script src="/css/sweetalert2.all.min.js"></script>
 </html>
