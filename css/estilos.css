@@ -57,7 +57,7 @@ header{
 nav a{
     font-weight: 500;
     padding-right: 30px;
-    font-size: 40px;
+    font-size: 30px;
 }
 nav a:hover{
     color: black;
@@ -433,4 +433,34 @@ p{
     flex-direction: column;
     margin: 0 100px 0 0;
     
+}
+.serviventas{
+    display: flex;
+    align-items: center;
+}
+.numservi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid white;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    padding: 10px 10px 10px 40px;
+   
+}
+.servent{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+.numvent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid white;
+    align-self: center;
+    align-content: center;
+    text-align: center;
+    padding: 10px 10px 10px 40px;
 }
