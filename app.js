@@ -19,8 +19,8 @@ function validar() {
 
 form.addEventListener("keyup", validar)
 
-const form = document.querySelector('#form2');
-const btc = document.querySelector('#btc');
+const form2 = document.querySelector('#form2');
+const btc2 = document.querySelector('#btc2');
 
 function validar() {
     const desabilitar = false;
